@@ -18,7 +18,7 @@ public:
         cout << "Autor: ";
         getline(cin, autor);
 
-        cout << "Año de publicacion: ";
+        cout << "Anio de publicacion: ";
         cin >> anioPublicacion;
         cin.ignore();
 
@@ -33,7 +33,7 @@ public:
     void mostrarInformacion() {
         cout << "Titulo: " << titulo << endl;
         cout << "Autor: " << autor << endl;
-        cout << "Año de publicacion: " << anioPublicacion << endl;
+        cout << "Anio de publicacion: " << anioPublicacion << endl;
         cout << "Edicion: " << edicion << endl;
         cout << "Cantidad de paginas: " << cantidadPaginas << endl;
     }
